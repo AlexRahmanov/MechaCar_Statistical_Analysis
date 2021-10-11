@@ -32,3 +32,23 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 # Deliverable 3
 T-Tests on Suspension Coils
 Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+# Deliverable 4
+# Study Design: MechaCar vs Competition
+One feature that people are interested in, is when they are buying a car. There is how much horsepower the car has. I think horsepower, mpg and how large the engine is are 3 factors that go into consumer decision making. We can use our tests to see if our MechaCar is much different from the competiton. We can make a null hypothesis stating that it is not different from the competition and our Alternative would be the opposite. To do this we will need to use our t-test after collecting data from different types of competitor vehicles. Our t-test will be comparing the population of all types of competitor vehicles.
+
+# Metrics
+1. Driving system (2-wheel, 4-wheel)
+2. Fuel Capacity / Fuel type (Electric, Hybrid, Gasoline)
+3. MPG (Gasoline Efficiency)
+
+# In order to run this statistical test, we need the data from:
+1. vehicle ID
+2. exhaust system emissions data
+3. transmission efficiency data
+
+# Hypothesis
+Is the MechaCar fuel efficiency performance adequately priced based on its performance or not.
+
+# Statistical Tests
+Conducting a multiple linear regression to determine the metrics that have the most significant correlation and predictability with the best fuel efficiency and its impact on the vehicle price.
